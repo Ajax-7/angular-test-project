@@ -1,5 +1,5 @@
 import { UPDATE, INIT, ActionReducer, Action } from '@ngrx/store';
-import { State } from 'app/state';
+import { State } from 'src/app/state';
 
 const blackList: string[] = [
   INIT,

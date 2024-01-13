@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { State } from 'src/app/reducers';
 import { Store } from '@ngrx/store';
+import { State } from 'src/app/state';
 
 @Component(
   {
